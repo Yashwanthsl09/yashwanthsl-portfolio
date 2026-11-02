@@ -1,0 +1,10 @@
+@import "./layout.css";
+@import "./components.css";
+@import "./pages.css";
+:root { font-family: "DM Sans", sans-serif; color: #eef1fb; background: #080d19; font-synthesis: none; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #080d19; color: #eef1fb; }
+a { color: inherit; text-decoration: none; }
+button, a { -webkit-tap-highlight-color: transparent; }
+::selection { background: #8b7cff; color: white; }

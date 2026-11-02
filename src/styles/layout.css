@@ -1,0 +1,14 @@
+.app-main { min-height: calc(100vh - 150px); }
+.section-wrap { width: min(1120px, calc(100% - 48px)); margin: 0 auto; }
+.page { animation: appear .55s ease both; }
+.content-section { padding: 92px 0 10px; }
+.section-title { max-width: 680px; margin-bottom: 36px; }
+.section-title .eyebrow, .eyebrow { color: #9b8fff; font-size: .72rem; font-weight: 700; letter-spacing: .19em; }
+.section-title h2 { font: 700 clamp(2rem, 4vw, 3rem)/1.12 "Space Grotesk", sans-serif; letter-spacing: -.055em; margin: 12px 0; }
+.section-title p { color: #9ba7bd; line-height: 1.8; margin: 0; }
+.inner-page { padding-top: 82px; padding-bottom: 90px; }
+.footer { width: min(1120px, calc(100% - 48px)); margin: 80px auto 0; padding: 26px 0 32px; border-top: 1px solid #202a3c; display: flex; justify-content: space-between; gap: 15px; color: #7f8ba2; font-size: .82rem; }
+.footer p { margin: 0; }
+.footer strong { color: #dce1f0; }
+@keyframes appear { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 650px) { .section-wrap, .footer { width: min(100% - 32px, 1120px); } .content-section { padding-top: 68px; } .inner-page { padding-top: 58px; } .footer { flex-direction: column; } }
