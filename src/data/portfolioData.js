@@ -2,7 +2,7 @@ export const profile = {
   name: "Yashwanth S L",
   role: "React.js Developer",
   subtitle: "Java Full Stack Developer",
-  location: "Karnataka, India",
+  location: "Karnataka, Bengluru, India",
   email: "yashwanthsl2005@gmail.com",
   phone: "+91 8971530057",
   linkedin: "https://linkedin.com/in/yashwanth-s-l",

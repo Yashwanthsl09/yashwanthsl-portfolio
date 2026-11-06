@@ -18,7 +18,6 @@ export default function Home() {
   return (
     <div className="page home-page">
       <section className="hero section-wrap">
-
         <div className="hero-copy">
           <span className="availability">
             <i /> OPEN TO FRESHER OPPORTUNITIES
@@ -33,7 +32,7 @@ export default function Home() {
             <br />
             <em>{profile.subtitle}</em>
           </h2>
-          
+
           <p className="hero-description">{profile.summary}</p>
           <div className="hero-actions">
             <Button
